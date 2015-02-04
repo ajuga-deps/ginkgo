@@ -1,7 +1,7 @@
 package focused_fixture_test
 
 import (
-	. "github.com/onsi/ginkgo"
+	. "github.com/ajuga-deps/ginkgo"
 )
 
 var _ = Describe("FocusedFixture", func() {

@@ -2,9 +2,9 @@ package remote_test
 
 import (
 	"fmt"
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/internal/remote"
-	. "github.com/onsi/gomega"
+	. "github.com/ajuga-deps/ginkgo"
+	. "github.com/ajuga-deps/ginkgo/internal/remote"
+	. "github.com/ajuga-deps/gomega"
 	"os"
 )
 

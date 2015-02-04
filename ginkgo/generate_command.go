@@ -35,8 +35,8 @@ var specText = `package {{.Package}}_test
 import (
 	. "{{.PackageImportPath}}"
 
-	{{if .IncludeImports}}. "github.com/onsi/ginkgo"{{end}}
-	{{if .IncludeImports}}. "github.com/onsi/gomega"{{end}}
+	{{if .IncludeImports}}. "github.com/ajuga-deps/ginkgo"{{end}}
+	{{if .IncludeImports}}. "github.com/ajuga-deps/gomega"{{end}}
 )
 
 var _ = Describe("{{.Subject}}", func() {
@@ -49,10 +49,10 @@ var agoutiSpecText = `package {{.Package}}_test
 import (
 	. "{{.PackageImportPath}}"
 
-	{{if .IncludeImports}}. "github.com/onsi/ginkgo"{{end}}
-	{{if .IncludeImports}}. "github.com/onsi/gomega"{{end}}
-	. "github.com/sclevine/agouti/core"
-	. "github.com/sclevine/agouti/matchers"
+	{{if .IncludeImports}}. "github.com/ajuga-deps/ginkgo"{{end}}
+	{{if .IncludeImports}}. "github.com/ajuga-deps/gomega"{{end}}
+	. "github.com/ajuga-deps/agouti/core"
+	. "github.com/ajuga-deps/agouti/matchers"
 )
 
 var _ = Describe("{{.Subject}}", func() {

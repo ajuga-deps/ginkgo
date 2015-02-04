@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/ginkgo/interrupthandler"
-	"github.com/onsi/ginkgo/ginkgo/testrunner"
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
-	"github.com/onsi/ginkgo/ginkgo/watch"
+	"github.com/ajuga-deps/ginkgo/config"
+	"github.com/ajuga-deps/ginkgo/ginkgo/interrupthandler"
+	"github.com/ajuga-deps/ginkgo/ginkgo/testrunner"
+	"github.com/ajuga-deps/ginkgo/ginkgo/testsuite"
+	"github.com/ajuga-deps/ginkgo/ginkgo/watch"
 )
 
 func BuildWatchCommand() *Command {

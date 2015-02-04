@@ -3,17 +3,17 @@ package spec_test
 import (
 	"time"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gbytes"
+	. "github.com/ajuga-deps/ginkgo"
+	. "github.com/ajuga-deps/gomega"
+	"github.com/ajuga-deps/gomega/gbytes"
 
-	. "github.com/onsi/ginkgo/internal/spec"
+	. "github.com/ajuga-deps/ginkgo/internal/spec"
 
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/internal/containernode"
-	Failer "github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/internal/leafnodes"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ajuga-deps/ginkgo/internal/codelocation"
+	"github.com/ajuga-deps/ginkgo/internal/containernode"
+	Failer "github.com/ajuga-deps/ginkgo/internal/failer"
+	"github.com/ajuga-deps/ginkgo/internal/leafnodes"
+	"github.com/ajuga-deps/ginkgo/types"
 )
 
 var noneFlag = types.FlagTypeNone

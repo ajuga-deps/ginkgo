@@ -1,9 +1,9 @@
 package spec_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/internal/spec"
-	. "github.com/onsi/gomega"
+	. "github.com/ajuga-deps/ginkgo"
+	. "github.com/ajuga-deps/ginkgo/internal/spec"
+	. "github.com/ajuga-deps/gomega"
 )
 
 var _ = Describe("ParallelizedIndexRange", func() {

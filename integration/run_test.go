@@ -4,11 +4,11 @@ import (
 	"runtime"
 	"strings"
 
-	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/types"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gbytes"
-	"github.com/onsi/gomega/gexec"
+	. "github.com/ajuga-deps/ginkgo"
+	"github.com/ajuga-deps/ginkgo/types"
+	. "github.com/ajuga-deps/gomega"
+	"github.com/ajuga-deps/gomega/gbytes"
+	"github.com/ajuga-deps/gomega/gexec"
 )
 
 var _ = Describe("Running Specs", func() {

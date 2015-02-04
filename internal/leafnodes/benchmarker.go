@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/onsi/ginkgo/types"
+	"github.com/ajuga-deps/ginkgo/types"
 )
 
 type benchmarker struct {

@@ -124,8 +124,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/ajuga-deps/ginkgo/config"
+	"github.com/ajuga-deps/ginkgo/ginkgo/testsuite"
 )
 
 const greenColor = "\x1b[32m"

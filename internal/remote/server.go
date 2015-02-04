@@ -9,9 +9,9 @@ package remote
 
 import (
 	"encoding/json"
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ajuga-deps/ginkgo/config"
+	"github.com/ajuga-deps/ginkgo/reporters"
+	"github.com/ajuga-deps/ginkgo/types"
 	"io/ioutil"
 	"net"
 	"net/http"

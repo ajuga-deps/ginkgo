@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/onsi/ginkgo/ginkgo/convert"
+	"github.com/ajuga-deps/ginkgo/ginkgo/convert"
 	"os"
 )
 

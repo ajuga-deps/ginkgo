@@ -11,7 +11,7 @@ import (
 
 	"go/build"
 
-	"github.com/onsi/ginkgo/ginkgo/nodot"
+	"github.com/ajuga-deps/ginkgo/ginkgo/nodot"
 )
 
 func BuildBootstrapCommand() *Command {
@@ -54,7 +54,7 @@ var agoutiBootstrapText = `package {{.Package}}_test
 import (
 	{{.GinkgoImport}}
 	{{.GomegaImport}}
-	. "github.com/sclevine/agouti/core"
+	. "github.com/ajuga-deps/agouti/core"
 
 	"testing"
 )
@@ -131,13 +131,13 @@ func generateBootstrap(agouti bool, noDot bool) {
 	data := bootstrapData{
 		Package:       packageName,
 		FormattedName: formattedName,
-		GinkgoImport:  `. "github.com/onsi/ginkgo"`,
-		GomegaImport:  `. "github.com/onsi/gomega"`,
+		GinkgoImport:  `. "github.com/ajuga-deps/ginkgo"`,
+		GomegaImport:  `. "github.com/ajuga-deps/gomega"`,
 	}
 
 	if noDot {
-		data.GinkgoImport = `"github.com/onsi/ginkgo"`
-		data.GomegaImport = `"github.com/onsi/gomega"`
+		data.GinkgoImport = `"github.com/ajuga-deps/ginkgo"`
+		data.GomegaImport = `"github.com/ajuga-deps/gomega"`
 	}
 
 	targetFile := fmt.Sprintf("%s_suite_test.go", bootstrapFilePrefix)

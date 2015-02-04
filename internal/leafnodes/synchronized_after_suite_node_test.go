@@ -1,17 +1,17 @@
 package leafnodes_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/internal/leafnodes"
-	"github.com/onsi/ginkgo/types"
-	. "github.com/onsi/gomega"
+	. "github.com/ajuga-deps/ginkgo"
+	. "github.com/ajuga-deps/ginkgo/internal/leafnodes"
+	"github.com/ajuga-deps/ginkgo/types"
+	. "github.com/ajuga-deps/gomega"
 	"sync"
 
-	"github.com/onsi/gomega/ghttp"
+	"github.com/ajuga-deps/gomega/ghttp"
 	"net/http"
 
-	"github.com/onsi/ginkgo/internal/codelocation"
-	Failer "github.com/onsi/ginkgo/internal/failer"
+	"github.com/ajuga-deps/ginkgo/internal/codelocation"
+	Failer "github.com/ajuga-deps/ginkgo/internal/failer"
 	"time"
 )
 

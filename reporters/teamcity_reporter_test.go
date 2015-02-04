@@ -3,12 +3,12 @@ package reporters_test
 import (
 	"bytes"
 	"fmt"
-	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/types"
-	. "github.com/onsi/gomega"
+	. "github.com/ajuga-deps/ginkgo"
+	"github.com/ajuga-deps/ginkgo/config"
+	"github.com/ajuga-deps/ginkgo/internal/codelocation"
+	"github.com/ajuga-deps/ginkgo/reporters"
+	"github.com/ajuga-deps/ginkgo/types"
+	. "github.com/ajuga-deps/gomega"
 	"time"
 )
 

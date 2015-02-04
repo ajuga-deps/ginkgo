@@ -1,8 +1,8 @@
 package leafnodes
 
 import (
-	"github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ajuga-deps/ginkgo/internal/failer"
+	"github.com/ajuga-deps/ginkgo/types"
 	"time"
 )
 

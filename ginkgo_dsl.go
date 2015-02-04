@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/internal/remote"
-	"github.com/onsi/ginkgo/internal/suite"
-	"github.com/onsi/ginkgo/internal/testingtproxy"
-	"github.com/onsi/ginkgo/internal/writer"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/reporters/stenographer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ajuga-deps/ginkgo/config"
+	"github.com/ajuga-deps/ginkgo/internal/codelocation"
+	"github.com/ajuga-deps/ginkgo/internal/failer"
+	"github.com/ajuga-deps/ginkgo/internal/remote"
+	"github.com/ajuga-deps/ginkgo/internal/suite"
+	"github.com/ajuga-deps/ginkgo/internal/testingtproxy"
+	"github.com/ajuga-deps/ginkgo/internal/writer"
+	"github.com/ajuga-deps/ginkgo/reporters"
+	"github.com/ajuga-deps/ginkgo/reporters/stenographer"
+	"github.com/ajuga-deps/ginkgo/types"
 )
 
 const GINKGO_VERSION = config.VERSION

@@ -1,10 +1,10 @@
 package coverage_fixture_test
 
 import (
-	. "github.com/onsi/ginkgo/integration/_fixtures/coverage_fixture"
+	. "github.com/ajuga-deps/ginkgo/integration/_fixtures/coverage_fixture"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/ajuga-deps/ginkgo"
+	. "github.com/ajuga-deps/gomega"
 )
 
 var _ = Describe("CoverageFixture", func() {

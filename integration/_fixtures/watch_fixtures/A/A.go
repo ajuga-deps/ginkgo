@@ -1,6 +1,6 @@
 package A
 
-import "github.com/onsi/B"
+import "github.com/ajuga-deps/B"
 
 func DoIt() string {
 	return B.DoIt()

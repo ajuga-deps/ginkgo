@@ -1,10 +1,10 @@
 package integration_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gbytes"
-	"github.com/onsi/gomega/gexec"
+	. "github.com/ajuga-deps/ginkgo"
+	. "github.com/ajuga-deps/gomega"
+	"github.com/ajuga-deps/gomega/gbytes"
+	"github.com/ajuga-deps/gomega/gexec"
 )
 
 var _ = Describe("Emitting progress", func() {

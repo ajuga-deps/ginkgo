@@ -1,14 +1,14 @@
 package leafnodes_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/internal/leafnodes"
-	. "github.com/onsi/gomega"
+	. "github.com/ajuga-deps/ginkgo"
+	. "github.com/ajuga-deps/ginkgo/internal/leafnodes"
+	. "github.com/ajuga-deps/gomega"
 
 	"time"
-	"github.com/onsi/ginkgo/internal/codelocation"
-	Failer "github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ajuga-deps/ginkgo/internal/codelocation"
+	Failer "github.com/ajuga-deps/ginkgo/internal/failer"
+	"github.com/ajuga-deps/ginkgo/types"
 )
 
 var _ = Describe("Measure Nodes", func() {

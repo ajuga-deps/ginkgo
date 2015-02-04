@@ -7,12 +7,12 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/leafnodes"
-	"github.com/onsi/ginkgo/internal/spec"
-	Writer "github.com/onsi/ginkgo/internal/writer"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ajuga-deps/ginkgo/config"
+	"github.com/ajuga-deps/ginkgo/internal/leafnodes"
+	"github.com/ajuga-deps/ginkgo/internal/spec"
+	Writer "github.com/ajuga-deps/ginkgo/internal/writer"
+	"github.com/ajuga-deps/ginkgo/reporters"
+	"github.com/ajuga-deps/ginkgo/types"
 
 	"time"
 )

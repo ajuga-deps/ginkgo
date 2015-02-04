@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/onsi/ginkgo/types"
+	"github.com/ajuga-deps/ginkgo/types"
 )
 
 type Failer struct {

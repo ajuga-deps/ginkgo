@@ -10,8 +10,8 @@ package reporters
 
 import (
 	"fmt"
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ajuga-deps/ginkgo/config"
+	"github.com/ajuga-deps/ginkgo/types"
 	"io"
 	"strings"
 )

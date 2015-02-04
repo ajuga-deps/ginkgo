@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/onsi/ginkgo/types"
+	"github.com/ajuga-deps/ginkgo/types"
 )
 
 const defaultStyle = "\x1b[0m"
